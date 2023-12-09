@@ -1,0 +1,91 @@
+img{
+    height: 100%;
+}
+
+.navbar{
+    box-shadow: rgba(17, 17, 26, 0.05) 0px 15px 20px;
+    
+    align-items: center;
+    background: #fff;
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 1.2rem;
+    height: 86px;
+    padding: 0 1em;
+    position: sticky!important;
+    top: 0;
+    z-index: 1000;
+}
+
+.navbar-container, .navbar-logo, .nav-item, .nav-links{
+    display: flex;
+    align-items: center;
+}
+
+.navbar-logo{
+    cursor: pointer;
+    text-decoration: none;
+    height: 60px;
+    border-radius: 50%;
+    overflow: hidden;
+    position: relative;
+    left: -20px;
+}
+
+.left-nav-menu{
+    grid-gap: 25px;
+    display: grid;
+    grid-template-columns: repeat(8,auto);
+    justify-content: start;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    width: 50vw;
+}
+
+.right-nav-menu{
+    grid-gap: 25px;
+    display: grid;
+    grid-template-columns: repeat(2,auto);
+    justify-content: end;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    width: 30vw;
+}
+
+.nav-item {
+    height: 50px;
+    margin-bottom: 5px;
+    margin-top: 0;
+}
+
+.nav-links{
+    color: #7064e5;
+    font-family: Quicksand,sans-serif;
+    font-size: 18px;
+    font-weight: bolder;
+    height: 100%;
+    padding: 1rem 1.1rem;
+    text-decoration: none;
+    position: relative;
+}
+
+.icon-style{
+    height: 38px;
+    margin: 0 8px;
+    width: 37px;
+}
+
+.cart-count{
+    position: relative;
+    font-size: 1.2rem;
+    color: rgb(148, 4, 4);
+    top: -20px;
+    right: 25px;
+    border-radius: 50%;
+    background-color: #fff;
+    padding: 2px;
+}
